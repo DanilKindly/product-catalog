@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-// Import page components
 import CreateProductCardPage from './pages/CreateProductCard';
 
 const AppRoutes = () => {
