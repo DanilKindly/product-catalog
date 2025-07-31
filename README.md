@@ -4,4 +4,4 @@
 git clone https://github.com/DanilKindly/product-catalog.git
 cd product-catalog
 npm install
-npm run dev
+npm start
