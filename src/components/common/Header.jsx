@@ -6,7 +6,6 @@ const Header = () => {
     <header className="w-full bg-global-1 shadow-[0px_0px_1px_#00000007] px-[14px] py-[14px]">
       <div className="w-full max-w-[1440px] mx-auto">
         <div className="flex flex-row justify-between items-center w-full mx-[4px]">
-          {/* Left Section - Logo and User Info */}
           <div className="flex flex-row gap-[10px] justify-center items-center w-auto">
             <img 
               src="/images/img_.svg" 
@@ -24,15 +23,11 @@ const Header = () => {
               </span>
             </div>
           </div>
-
-          {/* Center Section - Logo/Brand */}
           <img 
             src="/images/img_vector.svg" 
             alt="brand logo" 
             className="w-[176px] h-[44px]"
           />
-
-          {/* Right Section - Cabinet Button and Profile */}
           <div className="flex flex-row gap-[12px] justify-center items-center w-auto">
             <Button
               variant="secondary"
